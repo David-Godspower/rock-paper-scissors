@@ -20,7 +20,6 @@ function getHumanChoice(){
     if((humanChoice == "rock") || (humanChoice == "paper") || (humanChoice == "scissors")){
     return humanChoice;
     }else{
-         console.log("Please enter a valid choice: Rock Paper Scissors");
          alert("Please enter a valid choice: Rock Paper Scissors");
         return getHumanChoice();
     }
@@ -66,10 +65,8 @@ function playRound(humanChoice, computerChoice){
     }
 
 }
-const humanSelection = getHumanChoice();
-const computerSelection = getComputerChoice();
 
-playRound(humanSelection, computerSelection);
+playRound(humanChoice, computerChoice);
 
 
 function playGame(){
@@ -92,6 +89,7 @@ function playGame(){
 
 }
 playGame();
+
 
 
 
