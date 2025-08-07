@@ -83,7 +83,7 @@ function playGame(){
     console.log("Computer Score: "+ computerScore);
     if(humanScore > computerScore){
         console.log("You are the Overall Winner of this game!🥇🥇🥇");
-        alert('WINNER! WINNER!! WINNER!!!')
+        
     }else if(computerScore > humanScore){
         console.log("Computer is the Overall Winner 🥇🥇🥇! You can do better next time");
     }else{
