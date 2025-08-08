@@ -89,9 +89,9 @@ function playGame(){
         let computerChoice = getComputerChoice();
         playRound(humanChoice, computerChoice);
     }
-    console.log("\n Overall Winner ")
-    console.log("Your Score: "+ humanScore);
-    console.log("Computer Score: "+ computerScore);
+    alert("\n Overall Winner ")
+    alert("Your Score: "+ humanScore);
+    alert("Computer Score: "+ computerScore);
     if(humanScore > computerScore){
         alert("Congratulations " + name + ". You are the Overall Winner of this game!🥇🥇🥇");
         
