@@ -89,9 +89,9 @@ function playGame(){
         let computerChoice = getComputerChoice();
         playRound(humanChoice, computerChoice);
     }
-    alert("\n Overall Winner ")
-    alert("Your Score: "+ humanScore);
-    alert("Computer Score: "+ computerScore);
+    
+    alert("Overall Winner\nYour Score: "+ humanScore + "\nComputer Score: "+ computerScore);
+    
     if(humanScore > computerScore){
         alert("Congratulations " + name + ". You are the Overall Winner of this game!🥇🥇🥇");
         
@@ -100,6 +100,7 @@ function playGame(){
     }else{
         alert("It's a Tie Overall! You tried!");
     }
+    alert("Thanks for playing Rock Paper Scissors, " + name + "! Hope you had fun!");
 
 }
 playGame();
